@@ -9,3 +9,8 @@
 # Penggunaan kode
 
 Untuk penggunaan kode, sudah ada _comment_ di setiap file
+
+# Soal nomor 4
+
+- Dari dokumen https://testbinar.docs.apiary.io/, masih banyak kekurangan design
+  terutama alur saat sesudah melakukan action seperti Menambah, Mengubah, dan Menghapus
