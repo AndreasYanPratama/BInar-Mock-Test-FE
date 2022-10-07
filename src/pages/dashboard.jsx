@@ -182,7 +182,7 @@ function Dashboard(){
                 "imageurl": payload.imageurl
             }
             console.log(sessionUser().access_token);
-            const response = await fetch(`https://test-binar.herokuapp.com/v1/products/${id.toString()}`, {
+            const response = await fetch(`https://test-binar.herokuapp.com/v1/products/${id}`, {
                 method: 'put',
                 headers: {
                     'Content-Type': 'application/json',
@@ -197,6 +197,7 @@ function Dashboard(){
                     setLoadingCreate(false);
                 }else{
                     setLoadingCreate(false);
+                    window.location.reload();
                 }
             }else{
                 console.log(response.status); 
